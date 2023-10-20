@@ -1,0 +1,38 @@
+Write a blog about objects and its internal representation in Javascript
+
+
+Objects => Objects play major role in javascript that it mainly used on API which the request and response will delivered with use of object only
+
+A basic structure of object is
+
+a={
+int a, 
+int b, 
+int c,
+manoj kumar, 
+cat 
+}
+The objects are created using the above syntax that each value seperated by comma (,) symbol 
+
+Internal Representation of Objects =>
+
+Object properties =>
+
+The object have the properties of key and the value this pair is constructed as objects.The key value pair is the 
+
+reference where the user need to acces the particular data so user will call the value by using the key inside the object
+
+For example :
+
+var a={
+name:"Manoj Kumar M",
+age:"25",
+Country:"Indian"
+}
+If user wants to get the value for name key Then the user need to call the key name in this case when user calls name 
+
+the value will Manoj Kumar M
+
+Memory Management => 
+
+Objects uses the memory when only its accessed. Other than the memory wil not used and its help in improving the memory 

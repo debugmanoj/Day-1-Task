@@ -1,0 +1,18 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2
+
+
+http 1.1 =>
+1) http 1.1 as an version itself says its  outdated http-version compare to http2 ok then diving into comparison http 1.1 allow user to connect only 6 connections per domain for download resource in parallel 
+
+2) http 1.1 does not have prioritization  on loading of webpage so it leads to slower performance of webpage
+
+3) http 1.1 sends header as plain text so its does have compression 
+
+
+
+http 2=>
+1) It sents mutiple request and respone parallely in single connection
+
+2) http 2  have prioritization on loading of webpage so its load critical resources first and helps in improving the webpage
+
+3) http 2 sends header as compression and decompress automatically when it reaches user
